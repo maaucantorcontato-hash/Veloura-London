@@ -66,3 +66,53 @@ Verbatim supplier statements:
 5. Can you provide a **UK delivery estimate** for 1 pair, including processing, and detail the procedure for damaged/wrong items?
 
 **Status unchanged: research candidate. Do not publish or portray the jewellery as white-label, compliant, 316L-tested, or hypoallergenic based on supplier statements alone.**
+
+## Further supplier correspondence and testing screenshots — 2026-11-10
+
+Direct replies supplied by VELOURA owner:
+> "This is the price and shipping cost in the UK, excluding taxes. You can check the taxes when placing an order. It is not a Choice product and can be shipped without a label."
+>
+> "You can use our images and videos; the estimated delivery time is 11-14 days."
+
+Second response was repeated again verbatim.
+
+### Interpretation
+- Supplier now explicitly says **this item is NOT Choice** and **can ship without a label**. This is encouraging for white-label drop-shipping, but it does not yet affirm no seller-branded invoices, ads, visible retail pricing or outer shipping logos, nor a consistent packing standard. An actual sample order would verify.
+- Supplier explicitly permits **using their photos and videos**. Owner saved the written authorisation in AliExpress conversation; retain evidence. Use only genuine supplier-origin assets and avoid images belonging to third parties in the listing, where rights may differ. Permission can be reconfirmed if scope of paid adverts is unclear.
+- Revised estimated delivery **11–14 days**, in response to the UK question. This supersedes earlier generic 18–25 days for other countries **as a seller estimate, not an SLA or independently verified parcel performance**. Supplier did not specify whether calendar or working days, dispatch lead time, tracking carrier or customs delays.
+- The supplier sent an **annotated screenshot of the product listing** displaying £0.99 first-buyer welcome deal and £2.45 shipping to the UK. These **do not establish the standard repeat-order cost**: previous screenshot marked the promo max 1 pair per shopper and retail crossed-out £4.82. Their accompanying text says **excluding taxes**, but listing screenshot says **price includes VAT**. Resolve exact breakdown in real repeat-order checkout and confirm VAT/import treatment before pricing. No order has been placed.
+- Their earlier **US$2–4 per pair** remains only a range across assorted earrings.
+
+### REACH-related report screenshots received
+A partial set of **screenshots** of a purported 7-page RTS report was supplied: **pages 1, 5, 6 and 7**. No independently verified lab download or complete original PDF was supplied.
+
+**Report identification displayed:**
+- Testing agency named **Zhejiang RTS Test Co., LTD.**, RTS logo.
+- Report no. **RTS24G59561SL**.
+- Dated **15 November 2024**; tests 29 September–25 October 2024.
+- Applicant listed **Yiwu Xinyue Jewelry Co., Ltd**.
+- Product type **Stainless Steel Earrings**, brand **Yhpup**. Manufacturer listed **Dongguan AnYan Jewelry**.
+- Descriptive tested material **Golden metal earring**.
+- Page 5 image shows **several gold-coloured earring styles**, one superficially similar to U-shaped earrings. No clear SKU `YH4194A` or purchase variant code linked to the sampled object in the screenshots.
+
+**Visible test results:**
+- Lead (Pb): **N.D.** at detection limit 5 mg/kg against shown ≤500 mg/kg; **PASS**.
+- Cadmium (Cd): **N.D.** at detection limit 5 mg/kg against shown ≤100 mg/kg; **PASS**.
+- Nickel release: **N.D.** at shown method detection limit 0.01 µg/cm²/week, compared with shown ≤0.5 µg/cm²/week for direct/prolonged contact; **PASS**.
+- Report page 7 also refers to **≤0.2 µg/cm²/week** for inserted post assemblies, but the result table itself labels the tested item generically as “Golden metal earring”; do not extrapolate beyond its assessed scope.
+- Visible pages show **PASS** for the cited substances/tests, not for every conceivable substance, mechanical quality or all UK product safety requirements.
+
+**Important limitations:**
+- A **test report** is *not* a blanket product certification or approval of the vendor and not itself a material composition assay confirming **316L**, **18K PVD**, gold thickness or hypoallergenic/waterproof claims.
+- Need the **complete 7-page original report (PDF)** or laboratory verification link, technical item/specimen association with exact **YH4194A Gold** variant, and UK-market applicability review where relevant.
+- No verification of QR codes, issuing laboratory, signatures or report authenticity has been performed.
+
+### Updated decision
+**Priority supplier/product candidate; documentation partly reviewed; NOT YET APPROVED FOR PUBLIC SALES.**
+Sourcing progress: dropshipping supported ✔; non-Choice unlabelled shipping according to seller ✔ (sample unverified); commercial photos/video use allowed ✔; UK estimate 11–14 days according to seller ✔; lead/cadmium/nickel screenshot results favourable ✔.
+Open launch gates: regular single-pair landed cost including shipping/fees/taxes, proof report covers **YH4194A**, UK safety/claims confirmation, product sample/packaging check and competitor comparison. Avoid unverified “18K”, “hypoallergenic”, “waterproof”, “fast delivery” or “certified” marketing.
+
+### Suggested focused supplier follow-up (do not resend questions already answered)
+1. “Please send the **complete original PDF** for report **RTS24G59561SL** and confirm in writing whether it applies specifically to **YH4194A Gold** (the U-shape hoop earrings).”
+2. “For a **repeat**, non-new-customer dropship order of **one pair of YH4194A Gold to the United Kingdom**, what are the product price, tracked postage and any tax separately? Please confirm whether the £0.99 welcome deal is only for new customers.”
+3. “Can you confirm the 11–14-day UK estimate includes processing, and that the parcel contains no AliExpress/store receipts, promotional leaflets or customer-facing price?”

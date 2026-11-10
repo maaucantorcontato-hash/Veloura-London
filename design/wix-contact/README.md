@@ -34,3 +34,6 @@ Wix has a documented native form style editor, but the currently connected Wix R
 - https://dev.wix.com/docs/velo/velo-only-apis/$w/html-component/on-message
 - https://dev.wix.com/docs/velo/velo-only-apis/$w/html-component/post-message
 - https://support.wix.com/en/article/wix-forms-designing-your-site-forms
+
+## Continued Wix check during supplier review (10 November 2026)
+A fresh read-only Wix Form Schema API call confirmed that `Send us a note` remains **enabled**, revision **20**, with **all 7 controls**, required name/email/message/consent, correct thank-you message, and the desired **two-field desktop row** (6 columns each). This is an API-state check, **not a browser-level submission or screenshot verification**. Wix Studio Contact canvas still has the native form rather than the custom Figma design. No new publishing, canvas insertion, Velo enablement or test submissions occurred during this verification.

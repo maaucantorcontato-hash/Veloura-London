@@ -42,3 +42,6 @@
 
 ## Supplier response and review insights (2026-11-10)
 Seller confirmed generic dropshipping availability but estimated 18–25 days to countries outside the USA; UK-specific shipping eligibility, neutral packaging, single-pair recurring price, commercial media rights, verified materials, return routing and product-specific timing remain open. Review screenshot shows several positive gold-variant reviews with buyer photos and repeat comments that the earrings feel a bit heavy. Details and follow-up checklist: [YHPUP_SUPPLIER_COMMUNICATION.md](YHPUP_SUPPLIER_COMMUNICATION.md).
+
+## 2026-11-10 supplier follow-up + RTS screenshot analysis
+Seller reported that this item is **non-Choice**, may ship **without a label**, permits use of their **images and videos** and estimates **11–14 days** delivery in context of UK enquiries. Screenshots of an RTS report (dated 15 Nov 2024, no. **RTS24G59561SL**) show **PASS** for lead, cadmium and nickel release for a generic *Stainless Steel Earrings / Yhpup* sample. Exact sample correspondence to **YH4194A Gold**, full report authenticity, **316L** and PVD material makeup remain unverified. Regular repeat-order delivered cost including taxes remains unknown; £0.99 visible is still a one-off Welcome Deal. See [supplier record](YHPUP_SUPPLIER_COMMUNICATION.md). **Keep unpublished until approval gates clear.**
