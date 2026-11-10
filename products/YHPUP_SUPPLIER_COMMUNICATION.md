@@ -41,3 +41,28 @@ Only these visible examples were assessed, not the complete 311-review populatio
 
 ## Recommendation
 Continue as **research candidate, not approved to publish**. Reviews show encouraging fit/style feedback but repeated weight comments; 18–25-day potential UK delivery and unknown repeat order price are meaningful commercial risks for VELOURA. Shop branding and misleading delivery claims should be avoided until confirmed.
+
+## New direct supplier reply (received by owner, 2026-11-10)
+
+Verbatim supplier statements:
+> "If they are Choice products, they will be shipped from the AliExpress warehouse and will bear the names of both AliExpress and our store"
+>
+> "The price of each pair of earrings varies, generally between 2-4 US dollars"
+>
+> "Our jewelry is made of 304 stainless steel and 316 stainless steel. The 316 stainless steel items will be specified in the title, but they are all PVD gold-plated. We have the Reach certification documents"
+
+### Interpretation and implications (not yet independent verification)
+- **Choice** fulfilment: provider says products shipped from AliExpress warehouse and show **AliExpress and vendor store names**. This is **not neutral packaging** and undermines VELOURA's white-label presentation. Confirm whether the *specific YH4194A Gold SKU* is Choice and whether a **non-Choice direct shipment** with genuinely neutral packaging is available. Do **not** infer all orders are Choice.
+- **Pricing**: **US$2–4 per pair** is a broad range for earrings, **not a firm quote for YH4194A Gold**. UK shipping, applicable taxes, currency conversion and normal-order terms remain unknown. The £0.99 welcome deal should not be used as a repeatable product cost.
+- **Materials**: vendor states jewellery portfolio includes **304 and 316 stainless steel**; items using 316 will say so in the title. The selected product title claims **316L**; get the exact SKU's material specification and clarify whether 316 or 316L is guaranteed for this style. The seller also claims all their jewellery is PVD gold-plated; thickness, gold content and durability are unverified.
+- **REACH**: vendor reports having **REACH documents**, but they have **not yet been provided or reviewed**. Request actual test reports/certificates identifying the tested jewellery/SKU, issuing lab, issue date, tested substance limits and scope. REACH documentation does not by itself prove a specific item is 316L, 18K gold-coated, waterproof or hypoallergenic.
+- **UK delivery**: generic 18–25-day outside-US estimate remains concerning. Choice fulfilment might use a different service/time but no UK-specific promise has been provided.
+
+### Tight follow-up questions
+1. Is YH4194A Gold a **Choice** product? If yes, can the **same item** be shipped directly by you **without AliExpress/store names, prices, or promo inserts**?
+2. What is your **regular repeat-order price for 1 pair of YH4194A Gold**, and total UK tracked shipping cost per order? Please quote it in USD or GBP.
+3. Please send the **REACH test documents applicable to this exact product** and the 316L + PVD coating material specification.
+4. Can we **reuse your listing photographs and videos commercially** on our website and paid ads?
+5. Can you provide a **UK delivery estimate** for 1 pair, including processing, and detail the procedure for damaged/wrong items?
+
+**Status unchanged: research candidate. Do not publish or portray the jewellery as white-label, compliant, 316L-tested, or hypoallergenic based on supplier statements alone.**
