@@ -68,3 +68,11 @@ The Yhpup seller confirmed **£4.82 regular pair price + £2.45 UK shipping = £
 - Validate tax/fees with realistic UK checkout and payment provider calculation, without purchasing or placing orders.
 - Pricing scenarios: £16.90 => £9.63 before other costs (57.0% preliminary margin), £18.90 => £11.63 (61.5%). These are suggestions, not an approved listing price and not compared with current UK competitors.
 - Merchandising production still blocked on exact-product documentation, owner-approved price and actual supplier media files, and payment/plan readiness. Keep My Site 2 draft and all existing catalog items hidden until product and checkout are tested.
+
+## Wix Catalog V3 execution — 2026-11-10
+The merchant explicitly authorised creating **The Sculpt Hoops — Gold Tone** at **£18.90 provisional** as a **hidden** product, without publishing. Action completed:
+- Create Product response returned ID `a217520b-41a9-4e5b-9f99-e4afdc7a94bd`, product `visible:false`, PHYSICAL, SKU `VEL-EAR-001-GOLD`, amount `18.9`, slug `the-sculpt-hoops-gold-tone`.
+- Added to existing Earrings category ID `5771b7e2-a887-4057-95c5-2cf3f61b253b` with `bulkActionMetadata.totalSuccesses:1`, `totalFailures:0`.
+- No new image files uploaded, no inventory counts invented. Supplier media rights granted in message; genuine assets not attached yet.
+- No site publication, no payment/subscription action, no mobile button wiring.
+- The previously recorded status "all five products hidden" remains true for those five but there is now **a sixth product**, also hidden.
