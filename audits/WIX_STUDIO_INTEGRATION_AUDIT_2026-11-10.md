@@ -73,3 +73,30 @@ It does not say every link is broken; button interactions have not been programm
 - Figma account connection confirmed through its connector, but no original **Figma Design file key/node URL** was found in available project context, user history, or the project's GitHub repository. Need owner to copy the exact URL of original Figma file.
 - Present available Wix connector does **not** expose direct manipulation of Wix Studio's visual canvas (layers, menu wiring, breakpoint-specific pixel styling or form theme). Thus site redesign and slugs were **not** silently changed.
 - Wix site remains **draft/free plan** and has not been published.
+
+## Original Figma source verified (file link supplied by owner)
+
+**File:** https://www.figma.com/design/jZbAsMy7VVnCwpoZb3q7Tr/VELOURA-%E2%80%94-Online-Jewellery-Store
+**Figma file key:** `jZbAsMy7VVnCwpoZb3q7Tr`, Page 1 `0:1`.
+
+The following **11 original frames** were located in the actual Figma source: Home / Shop / Product Detail / Our Story / Contact (all Desktop and Mobile), plus a reusable button collection. Representative frame IDs:
+- Home Desktop: `9:15519`; Home Mobile: `9:16256`
+- Shop Desktop: `9:15685`; Shop Mobile: `9:16412`
+- Product Detail Desktop: `9:15871`; Product Detail Mobile: `9:16579`
+- Our Story Desktop: `9:16028`; Our Story Mobile: `9:16728`
+- Contact Desktop: `9:16126`; Contact Mobile: `9:16814`
+- Reusable buttons: `9:17352`
+
+**Key corrections to implement in Wix, based on inspected original Figma nodes:**
+1. **Mobile Shop grid** source frame `9:16461` is **350px wide with 8 cards in precisely TWO columns**. Card widths **169px**, horizontal gap **12px**, x offsets 0 and 181px. The previous Wix imported layout at 390px showed FOUR unreadably small columns, thus should be fixed in Wix breakpoint, without changing the correct Figma master.
+2. **Desktop Contact** source frame `9:16153` uses two columns: customer care section width **480px** at x=64 and form **704px** at x=672. The native Wix contact form should retain working data/notifications and be styled to closely match source frame `9:16168`.
+3. **Mobile Contact** source form `9:16845` is **350px wide** and **822px tall**; most inputs are **48px** tall, message area **140px** tall, CTA **50px** tall. Fields are one column and labels above. The Figma desktop form has the name and email field side by side.
+4. **Typography** confirmed from nodes: editorial headings **Cormorant Garamond Regular**, body and field labels **Inter Regular**. Desktop Contact heading **76px**, mobile **47px** (may need refinement for usability rather than blindly adopting all sizes).
+5. **Exact colour evidence** from source Figma node `9:17450`: SEND MESSAGE background RGB (~136,115,68), i.e. **#887344**. Main text node `9:16152`: RGB (~41,39,32), i.e. **#292720**. Input stroke RGB (~220,214,203), i.e. **#DCD6CB**. **Use these source colours rather than invented previous palette for matching this Figma file.**
+6. Figma reusable button instances inspected (`9:17450` SEND MESSAGE and `9:17437` ADD TO BAG) had **zero prototyping reactions**. These are visual components, **not functionality**, explaining why they need native Wix links/forms/cart bindings.
+7. The Figma original contains **unverified commercial assertions** such as announcement `A LITTLE EVERYDAY LUXURY · FREE UK DELIVERY OVER £100`, email `support@veloura.co.uk`, placeholder product prices £65–£110, and metal specs on static Figma products. Before publication, verify real contact mailbox, shipping thresholds, actual physical product material/variants/prices, and returns promises; do not assume the Figma sample catalog matches approved suppliers.
+8. Source mobile Shop products resemble premium studio photography but actual source images do not establish rights to advertise the *physical supplier goods*. Keep Figma product images as placeholders until approved true-to-product and authorised photos are available.
+
+**Access status:** Figma connector reads and screenshot inspection succeeded. No Figma content was changed — source is a correct visual baseline. The Wix Studio design canvas itself remains inaccessible for automated layer/style edits through the current Wix management connector. Any claim that form typography or 2-column Wix mobile layout was automatically fixed would be incorrect. Wix catalog cleanup (hiding one example item) did succeed and was verified separately.
+
+**Next meaningful implementation:** native Wix Studio Contact form theme and mobile Shop product grid, keeping existing working form/menu/cart; then navigation and product-page integration. The site must stay draft until real fulfillment/commercial details and payment readiness are verified.
