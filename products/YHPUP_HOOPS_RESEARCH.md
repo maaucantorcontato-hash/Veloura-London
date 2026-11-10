@@ -24,3 +24,18 @@
 4. Verify the advertised `316L` alloy, gold-coating process and any hypoallergenic/waterproof claims before commercial use.
 5. Compare the final delivered cost with at least three equivalent British retail offers, according to `PRICING_POLICY_UK.md`.
 6. Keep the item **unpublished** until supplier sourcing and media permissions are verified.
+
+## Detailed product-page screenshot: 2026-11-10
+- Seller name visible: **Yhpup Official Store(Trader)**. This verifies display name only; seller store **ID remains unconfirmed**. Do not automatically map to Store 1396631.
+- Selection visible: **Metal Color: YH4194A Gold**.
+- Rating displayed: **4.7 stars**, **311 Reviews**, **4,000+ sold**. Individual review contents/photos are **not yet reviewed**.
+- Welcome deal: **£0.99**, **max 1 pc/shopper at this price**. Crossed-out **£4.82** is a reference on the listing, **not a confirmed repeat-order supplier quote**.
+- Shipping shown for United Kingdom: **£2.45** standard; free shipping over **£7.66** is conditional. Delivery estimate **21–25 November 2026** at screenshot time.
+- Listing states product price **includes VAT**. Final checkout cost, multiple-order shipping, supplier rate and VAT treatment are unconfirmed.
+- Claimed: **316L stainless steel**, **18K PVD plating**, waterproof/hypoallergenic in seller listing/AI overview. These require independent material/compliance evidence and must not be repeated as substantiated marketing claims.
+- Candidate is **stronger for research** than OKING on advertised demand/review count, **not approved for Wix publication**.
+
+## Immediate next checks
+1. Click the **311 Reviews** link and inspect the latest photos, negative reviews and gold finish longevity.
+2. Ask Yhpup Official Store for a **repeat-order**, non-welcome deal quote for YH4194A Gold, shipping per order to the UK, image rights, neutral packaging and dropshipping support.
+3. Confirm exact store ID and delivery costs without purchase; then compare against at least three similar UK retailers before pricing.
