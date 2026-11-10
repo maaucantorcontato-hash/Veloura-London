@@ -116,3 +116,23 @@ Open launch gates: regular single-pair landed cost including shipping/fees/taxes
 1. “Please send the **complete original PDF** for report **RTS24G59561SL** and confirm in writing whether it applies specifically to **YH4194A Gold** (the U-shape hoop earrings).”
 2. “For a **repeat**, non-new-customer dropship order of **one pair of YH4194A Gold to the United Kingdom**, what are the product price, tracked postage and any tax separately? Please confirm whether the £0.99 welcome deal is only for new customers.”
 3. “Can you confirm the 11–14-day UK estimate includes processing, and that the parcel contains no AliExpress/store receipts, promotional leaflets or customer-facing price?”
+
+## New confirmed seller quote — regular, non-discounted cost (2026-11-10)
+
+Seller message shared by owner verbatim:
+> "The price excluding discounts and offers is £4.82, shipping is £2.45, and other costs vary by country; we do not know the details [Rose]."
+
+**Confirmed quoted base values, seller-reported:** YH4194A Gold pair **£4.82**; shipping to UK **£2.45**; **subtotal £7.27 per pair** before *unknown* taxes and other import/transaction costs. Seller did **not** confirm a tax-inclusive final checkout total; in a previous message they stated costs were "excluding taxes", although the AliExpress product UI separately displayed "price includes VAT". Treat this as an unresolved tax breakdown, not proof of either inclusion or exclusion.
+
+**Do not use** £0.99 welcome offer as cost. Their new reply answers the repeat-cost question: no need to ask product and postage again. Validate VAT/import/tax amount at a checkout with a real UK delivery destination before public launch.
+
+**UK-facing consumer price** is **not chosen or approved by the owner**. Do not create the Wix Stores product with an invented/zero/suggested-but-not-approved price. Preliminary gross-profit scenarios before all extra expenses:
+| Gross retail price | Difference after £7.27 base cost | Gross preliminary margin |
+| ---: | ---: | ---: |
+| £14.90 | £7.63 | 51.2% |
+| £16.90 | £9.63 | 57.0% |
+| £18.90 | £11.63 | 61.5% |
+| £19.90 | £12.63 | 63.5% |
+All margins exclude taxes, payment fees, returns/defects, acquisition and operating costs. The user's competitive constraint is to price slightly **below comparable UK retail competitors**, whose prices have not been verified with current data. Do not represent these scenarios as vetted market prices.
+
+**Next blocking action:** validate precise tax-inclusive delivered cost through checkout, and owner acceptance of final GBP selling price. Product sample and exact RTS report-to-SKU match still pending.

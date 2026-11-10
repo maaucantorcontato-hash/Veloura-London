@@ -61,3 +61,10 @@ No production store deployment or subscriptions were changed in this investigati
 - Compare delivered landed cost vs real UK competitor offers; merchant confirms price **in GBP**.
 - Enter price in hidden `The Sculpt Hoops — Gold Tone` physical Wix Stores product, using only supplier-authorised assets; link to native Product Page and Cart after form/checkout tests.
 - Revisit UK delivery charge, check checkout taxes, merchant payout/KYC status and plan subscription; ship an actual sample first if possible.
+
+## Supplier repeat-order pricing received (2026-11-10) — supersedes older pending-cost statements above
+The Yhpup seller confirmed **£4.82 regular pair price + £2.45 UK shipping = £7.27 subtotal**, expressly saying other country-based costs are unknown. This is a **quoted base cost**, not proof of final tax-inclusive landed cost.
+- Supplier-price question is resolved; do **not** resend it.
+- Validate tax/fees with realistic UK checkout and payment provider calculation, without purchasing or placing orders.
+- Pricing scenarios: £16.90 => £9.63 before other costs (57.0% preliminary margin), £18.90 => £11.63 (61.5%). These are suggestions, not an approved listing price and not compared with current UK competitors.
+- Merchandising production still blocked on exact-product documentation, owner-approved price and actual supplier media files, and payment/plan readiness. Keep My Site 2 draft and all existing catalog items hidden until product and checkout are tested.

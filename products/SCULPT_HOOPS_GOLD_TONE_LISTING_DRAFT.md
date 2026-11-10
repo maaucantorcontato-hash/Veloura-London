@@ -54,3 +54,10 @@ The Sculpt Hoops reinterpret the classic hoop with a polished, rounded shape tha
 - [ ] Wix native product created and storefront linked to real SKU
 - [ ] Checkout test completed
 - [ ] Owner explicitly approves the listing
+
+## Supplier cost update — 2026-11-10
+- The seller's **regular price** for a pair is **£4.82**; tracked/untracked status of quoted shipping must still be verified.
+- UK shipping quoted **£2.45**.
+- **Base subtotal £7.27**, taxes/other destination costs not identified by seller.
+- Final retail price **TBD / must be expressly accepted by owner**. £16.90–£18.90 is a preliminary analysis range only. This is **not** the Wix catalog price until confirmed.
+- Assess actual UK competitor prices and cost breakdown; no unproven "below competitors" claim.
