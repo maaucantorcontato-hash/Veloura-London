@@ -42,3 +42,6 @@ Use a 0–5 scale for each item, with **quality / UK delivery / style / gross ma
 - An 'Orders' sort ranks according to the platform's displayed metric, not market demand in Britain.
 - If one product comes from another supplier, each supplier may dispatch separately. Set realistic delivery expectations and returns responsibilities.
 - Comply with UK consumer and product safety obligations; avoid unsupported 'hypoallergenic', '925 silver', 'solid gold', waterproof, or same-day delivery claims.
+
+## UK pricing instruction
+The owner requires VELOURA prices to be **slightly below comparable competing UK jewellery retailers** when commercially sustainable. See [UK retail pricing policy](PRICING_POLICY_UK.md). Use verified like-for-like delivered retail comparisons and the actual repeat-order supplier cost, not one-off AliExpress promotion values. If sufficient margin is impossible, change supplier/product rather than incur a loss.

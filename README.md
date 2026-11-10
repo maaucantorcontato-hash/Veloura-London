@@ -30,3 +30,6 @@ Older HTML, CSS and JS site files were removed from `main` after backup to branc
 ## Using in Wix
 
 Download/upload SVG where Wix accepts it; otherwise export PNG from the vectors or use the separate VELOURA PNG/ICO kit supplied in the ChatGPT conversation. Keep the native Wix hamburger and cart controls functional. See `wix/INSTALLATION.md`.
+
+## Retail pricing
+VELOURA's working policy is to price slightly below comparable UK jewellery retailers where margins allow. Verify current competitor retail prices and landed fulfilment costs before any Wix catalog price is approved. See [products/PRICING_POLICY_UK.md](products/PRICING_POLICY_UK.md).
