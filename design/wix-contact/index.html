@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="color-scheme" content="light"/>
+<title>Contact VELOURA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{--cream:#F8F6F1;--paper:#FFFDF9;--ink:#292720;--muted:#6D655A;--gold:#887344;--line:#DCD6CB;--error:#9b362d}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);font:14px/1.6 Inter,Arial,sans-serif;color:var(--ink)}
+main{max-width:704px;margin:auto;padding:4px}
+form{background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:36px}
+.eyebrow{color:var(--gold);font-weight:600;font-size:10px;letter-spacing:1.5px;margin:0 0 7px}
+h1{font:400 clamp(36px,5vw,42px)/1.04 "Cormorant Garamond",Georgia,serif;margin:0 0 7px}
+.subnote{font-size:11px;color:var(--muted);margin:0 0 24px}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px 24px}
+.field{min-width:0;display:flex;flex-direction:column;gap:7px}.field.wide{grid-column:1/-1}
+label{font-size:12px;font-weight:500}
+input:not([type=checkbox]),select,textarea{appearance:none;width:100%;background:#fff;border:1px solid var(--line);border-radius:2px;padding:0 16px;min-height:48px;color:var(--ink);font:14px Inter,Arial,sans-serif}
+textarea{min-height:130px;padding-top:14px;resize:vertical;line-height:1.5}
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23887344' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+input[aria-invalid=true],select[aria-invalid=true],textarea[aria-invalid=true]{border-color:var(--error)}
+.error{font-size:11px;color:var(--error);min-height:0}.error:empty{display:none}
+.privacy{display:flex;align-items:flex-start;gap:13px;margin:22px 0 25px;color:var(--muted);font-size:11px}
+.privacy input{height:17px;width:17px;accent-color:var(--gold);flex:0 0 17px;margin:3px 0 0}
+.privacy a{color:var(--ink);text-underline-offset:3px}
+button{border:0;border-radius:2px;padding:0 27px;background:var(--gold);color:#fff;min-width:192px;height:52px;font:600 12px Inter,Arial,sans-serif;letter-spacing:.4px;cursor:pointer}
+button:hover:not(:disabled){background:#756238}button:disabled{opacity:.7;cursor:wait}
+.reassurance{margin:19px 0 0;color:var(--muted);font-size:11px}
+.status{margin:16px 0 0;min-height:0;font-size:13px}.status:empty{display:none}.status[data-kind=error]{color:var(--error)}.status[data-kind=success]{color:#32613e}
+@media(max-width:600px){main{padding:0 20px}form{padding:20px}h1{font-size:36px}.fields{grid-template-columns:1fr;gap:19px}button{width:100%}.privacy{margin:21px 0 23px}.reassurance{line-height:1.7}}
+</style>
+</head>
+<body>
+<main>
+<form id="contact" novalidate>
+  <p class="eyebrow">SEND US A NOTE</p>
+  <h1>Let's start a conversation.</h1>
+  <p class="subnote">Fields marked * are required.</p>
+  <div class="fields">
+    <div class="field"><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" required maxlength="120" placeholder="Full name"/><p class="error" id="name-error"></p></div>
+    <div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email" inputmode="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"/><p class="error" id="email-error"></p></div>
+    <div class="field wide"><label for="topic">What can we help with?</label><select id="topic" name="topic"><option value="">Select a topic</option><option>Order enquiry</option><option>Delivery &amp; tracking</option><option>Returns &amp; refunds</option><option>Product question</option><option>Other</option></select></div>
+    <div class="field wide"><label for="order">Order number (optional)</label><input id="order" name="order" maxlength="100" autocomplete="off" placeholder="e.g. VL12345"/></div>
+    <div class="field wide"><label for="message">Your message *</label><textarea id="message" name="message" required maxlength="5000" placeholder="Tell us a little more…"></textarea><p class="error" id="message-error"></p></div>
+  </div>
+  <label class="privacy"><input type="checkbox" id="consent" required/><span>I have read the <a href="/blank-5" target="_top" rel="noopener noreferrer">Privacy Policy</a> and agree to the use of my details to respond to this enquiry. *</span></label>
+  <p class="error" id="consent-error"></p>
+  <button type="submit" id="submit">SEND MESSAGE&nbsp; →</button>
+  <p class="status" role="status" aria-live="polite" id="status"></p>
+  <p class="reassurance">Your details are used to answer your enquiry, not to sign you up for marketing.</p>
+</form>
+</main>
+<script>
+(()=>{'use strict';
+  const form=document.getElementById('contact'),status=document.getElementById('status'),button=document.getElementById('submit');
+  const ids=['name','email','message','consent'];let hostOrigin=null;let pending=null;
+  const msg=(kind,text)=>{status.dataset.kind=kind;status.textContent=text};
+  window.addEventListener('message',(event)=>{
+    if(event.source!==window.parent || !event.data || typeof event.data!=='object')return;
+    const d=event.data;
+    if(d.type==='VELOURA_INIT' && event.origin){hostOrigin=event.origin;return}
+    if(!hostOrigin||event.origin!==hostOrigin||!pending||d.requestId!==pending)return;
+    if(d.type==='VELOURA_SUCCESS'){pending=null;button.disabled=false;button.textContent='SEND MESSAGE →';msg('success',"Thank you for contacting VELOURA. We'll be in touch soon.");form.reset();}
+    if(d.type==='VELOURA_FAILURE'){pending=null;button.disabled=false;button.textContent='SEND MESSAGE →';msg('error',"We couldn't send your message. Please try again later.");}
+  });
+  if(window.parent!==window)window.parent.postMessage({type:'VELOURA_READY'},'*'); // handshake: contains NO customer information
+  function fieldError(id,text){const el=document.getElementById(id);el.setAttribute('aria-invalid',text?'true':'false');const err=document.getElementById(id+'-error');if(err)err.textContent=text;return !!text}
+  form.addEventListener('submit',(event)=>{event.preventDefault();if(pending)return;
+    ids.forEach(id=>fieldError(id,''));msg('','');
+    const name=form.elements.name.value.trim(),email=form.elements.email.value.trim(),message=form.elements.message.value.trim(),topic=form.elements.topic.value,order=form.elements.order.value.trim(),consent=document.getElementById('consent').checked;
+    const errors=[
+      fieldError('name',name.length<2?'Please enter your name.':''),
+      fieldError('email',!form.elements.email.validity.valid||!email?'Please enter a valid email address.':''),
+      fieldError('message',message.length<10?'Please include at least 10 characters.':''),
+      fieldError('consent',!consent?'Please read and accept the Privacy Policy.':'')
+    ];
+    if(errors.some(Boolean)){msg('error','Please review the highlighted fields.');return}
+    if(!hostOrigin){msg('error','This design preview is not connected to Wix submissions yet. No message has been sent.');return}
+    pending='veloura-'+Date.now()+'-'+Math.random().toString(36).slice(2);
+    button.disabled=true;button.textContent='SENDING…';msg('','');
+    window.parent.postMessage({type:'VELOURA_SUBMIT',requestId:pending,fields:{name,email,message,topic,order,consent}},hostOrigin);
+  });
+})();
+</script>
+</body></html>
