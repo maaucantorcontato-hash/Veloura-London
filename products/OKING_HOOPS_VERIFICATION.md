@@ -28,3 +28,11 @@
 ## Other product reference
 - Promotional product ID `1005009828207560`: https://www.aliexpress.com/item/1005009828207560.html
 - The `#nav-store` URL fragment does not establish its seller's store ID.
+
+## Follow-up: selected gold variant price (2026-11-10)
+- **Gem Color: 2Gold Earrings-Outer** (gold-colour small hoop earrings) selected in owner's screenshot.
+- Item price displayed **£2.42**, promotional compared to crossed-out **£5.05**.
+- UK standard shipping displayed **£2.70**; item + displayed shipping **£5.12** before final checkout changes.
+- Earlier silver selection: **£2.19**, therefore gold was **£0.23** more in these two screenshots.
+- Listing indicates item price includes VAT; neither future repeat-order cost nor checkout total is independently verified.
+- Keep candidate unapproved until reviews, seller sourcing terms, photo rights, materials and shipping are confirmed.
