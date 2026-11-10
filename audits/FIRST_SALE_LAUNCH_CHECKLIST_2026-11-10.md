@@ -42,3 +42,22 @@ Figma node API creates editable designs; it does not create Wix Stores or Wix Fo
 Yhpup confirmed supports dropshipping; says YH4194A non-Choice unlabelled, supplier media may be used, UK shipping estimated 11–14 days; generic US$2–4 price for earrings. Final one-pair repeated order landed quote remains missing. Request **only** that cost breakdown now, not repeated packaging questions.
 
 No production store deployment or subscriptions were changed in this investigation.
+
+
+## Execution log — approved launch tasks in this turn, 2026-11-10
+
+### ACTUALLY CHANGED IN WIX (verified)
+1. **Restrict shipping to UK while supplier services are unconfirmed.** Site `673dd945-7ba6-414e-9099-f77e83a13b9a`, delivery profile `149809bf-e322-4b3d-8352-26b526921cc9`, `International` region: set `active: false` using official `UpdateDeliveryRegion`, with revision guard. Read-back verified `International.active === false`, `Domestic.active === true`, Domestic's destination still `GB`. Profile advanced to revision `5`. This is reversible. No shipping options were deleted; international DHL offers simply no longer have an active associated destination region.
+2. **Checked product category tree; no duplicates created.** `Earrings`, `Necklaces`, `Bracelets`, and `Rings` already existed, all showing `visible: true`. No category edits made.
+
+### STILL NOT CHANGED / LAUNCH BLOCKERS
+- `Domestic` for Great Britain remains zero-priced **Free shipping**, without documented final supplier price; revisit when true landed cost received. Do not imply shipping free is supplier-funded.
+- All five currently registered Wix products remain hidden. The Wix Catalog V3 Create Product recipe **forbids creating products without an explicitly confirmed listing price**; the Yhpup product price has not been agreed by the merchant. No £0 or imaginary placeholder product created.
+- Yhpup's **repeat, non-welcome, single-pair price delivered to the UK** and any separate tax amounts are pending. Supplier message prepared for user (no AliExpress sender integration available).
+- Provider onboarding and site payment plan status are unverified/unfinished; the current site is still Free/Draft and its legal country property remains `IO`. No plan purchase, domain reassignment, merchant-country falsification, publishing or payments activation performed.
+- No Wix Studio page-canvas edit or button wiring via REST connector. For first sale, site owner/editor workflow still required if no compatible editor-write plugin/Work access exists.
+
+### Immediate next actions after Yhpup quote
+- Compare delivered landed cost vs real UK competitor offers; merchant confirms price **in GBP**.
+- Enter price in hidden `The Sculpt Hoops — Gold Tone` physical Wix Stores product, using only supplier-authorised assets; link to native Product Page and Cart after form/checkout tests.
+- Revisit UK delivery charge, check checkout taxes, merchant payout/KYC status and plan subscription; ship an actual sample first if possible.
