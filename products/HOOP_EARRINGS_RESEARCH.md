@@ -25,3 +25,15 @@ At present there is **no seller-to-listing mapping** for the products visible in
 5. Request wholesale/dropshipping rates, neutral packaging, and photo permissions from sellers. Mark items pending until confirmed.
 
 No data in this document constitutes a recommendation to publish a product or spend on paid ads.
+
+## New product candidate (owner-selected gold hoops)
+
+- **Candidate:** `VEL-C003`, AliExpress product ID **1005009580645615**.
+- **Canonical URL:** https://www.aliexpress.com/item/1005009580645615.html
+- **Source:** direct product link shared by the owner on 2026-11-10 after reviewing potential Store 1.
+- **Marketing metadata in original URL:** GBP **£4.55** and **£2.19**, plus SKU **12000049524716894**. These values were in URL tracking parameters, **not observed at checkout**. Do not treat them as the confirmed per-order supply cost or a genuine/current discount.
+- **Supplier identity:** not independently verified; possible association with candidate Store 1 (ID 1103338020), **pending an on-page seller verification**.
+- **Status:** candidate for the VELOURA Earrings collection, not approved for publication.
+
+## Store 3 follow-up
+The owner sent `https://www.aliexpress.com/item/1005009828207560.html#nav-store` as a follow-up. The `#nav-store` section merely navigates within the product page; it does **not** establish a storefront URL. To confirm the seller, open the product page and select its store/seller name or **Visit Store**, then copy the resulting `/store/<ID>` URL.
