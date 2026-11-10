@@ -50,3 +50,26 @@ Known from prior user screenshots / tests:
 
 ## What this audit does NOT claim
 It does not say every link is broken; button interactions have not been programmatically crawled. It does not say the Contact page has been visually replaced: the Figma file key and Wix Studio visual editor controls remain prerequisites. No live changes, billing actions or publishing were performed in this audit.
+
+## Changes executed after the audit (same day)
+
+### Wix Catalog V3 — change actually applied and verified
+- Site: `673dd945-7ba6-414e-9099-f77e83a13b9a` (My Site 2).
+- Product: **Textured Loop Earrings**, ID `d2dc8bef-0a26-414a-b1dc-7bbba867bc6a`.
+- Was **visible=true**, unverified from any approved supplier, from legacy/demo catalog.
+- Safely patched to **visible=false** using Wix Catalog V3 Update Product with revision guard.
+- Verified via Get Product: `visible=false`, revision **2**, retained in catalog (NOT deleted).
+- The other four registered products were already not visible in the online store, including the Veloura Gold Pendant Necklace. No prices or inventory values changed.
+- This protects against publishing a product that has no documented sourcing/materials/fulfilment review. **It does not alter static Figma-imported card visuals.**
+
+### Contact form inspection
+- Wix form `Send us a note` (ID `eb73acd9-d969-4f44-b907-5c5adce82a38`) remains enabled and unchanged.
+- Its Wix schema already orders fields **Your name → Email address → What can we help with? → Order number (optional) → Your Message → Privacy Policy checkbox → SEND MESSAGE** (all seven visible controls in one-column 12-unit layout).
+- Therefore the main complaint is **visual layout/design**, not schema field ordering. No schema update is justified simply for aesthetics.
+- Wix Forms API does not provide an evidenced endpoint for font/colour/padding/section-layout editing; the native Wix Studio visual editor's **Settings → Design** must be used. Do not replace the proven functional form with static HTML.
+- Previous test notification and delivery should be re-verified after restyling, not broken by deleting the schema.
+
+### Remaining blockers / next steps
+- Figma account connection confirmed through its connector, but no original **Figma Design file key/node URL** was found in available project context, user history, or the project's GitHub repository. Need owner to copy the exact URL of original Figma file.
+- Present available Wix connector does **not** expose direct manipulation of Wix Studio's visual canvas (layers, menu wiring, breakpoint-specific pixel styling or form theme). Thus site redesign and slugs were **not** silently changed.
+- Wix site remains **draft/free plan** and has not been published.
