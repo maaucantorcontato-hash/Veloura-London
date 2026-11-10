@@ -100,3 +100,29 @@ The following **11 original frames** were located in the actual Figma source: Ho
 **Access status:** Figma connector reads and screenshot inspection succeeded. No Figma content was changed — source is a correct visual baseline. The Wix Studio design canvas itself remains inaccessible for automated layer/style edits through the current Wix management connector. Any claim that form typography or 2-column Wix mobile layout was automatically fixed would be incorrect. Wix catalog cleanup (hiding one example item) did succeed and was verified separately.
 
 **Next meaningful implementation:** native Wix Studio Contact form theme and mobile Shop product grid, keeping existing working form/menu/cart; then navigation and product-page integration. The site must stay draft until real fulfillment/commercial details and payment readiness are verified.
+
+## Wix Contact refresh execution — same project task (2026-11-10)
+
+### Figma: real editable designs now created (original screens preserved)
+- Dedicated new Figma page `63:45`: **VELOURA · Contact Refresh — Wix Ready**.
+- [Enhanced Desktop 1440px](https://www.figma.com/design/jZbAsMy7VVnCwpoZb3q7Tr/VELOURA-%E2%80%94-Online-Jewellery-Store?node-id=63-46) — editable frame `63:46`, native editable fields, gold CTA, jewellery photograph reused from original Figma.
+- [Enhanced Mobile 390px](https://www.figma.com/design/jZbAsMy7VVnCwpoZb3q7Tr/VELOURA-%E2%80%94-Online-Jewellery-Store?node-id=63-94) — editable frame `63:94`, stacked fields and full-width CTA.
+- [Design states / Wix implementation contract](https://www.figma.com/design/jZbAsMy7VVnCwpoZb3q7Tr/VELOURA-%E2%80%94-Online-Jewellery-Store?node-id=63-137), frame `63:137`.
+- Screens were rendered and visually inspected. **They are Figma design layers**, not live form submissions.
+
+### Wix: real safe schema layout mutation applied
+- Site ID `673dd945-7ba6-414e-9099-f77e83a13b9a` — My Site 2, Studio **draft**.
+- Form ID `eb73acd9-d969-4f44-b907-5c5adce82a38`, **Send us a note**.
+- Wix Forms API `PATCH /form-schema-service/v4/forms/{id}`: successful form revision **19 → 20**.
+- Set desktop `steps[0].layout.large.items`: **name** column 0 width 6, **email** column 6 width 6, both on row 0; remaining 5 elements occupy sequential full-width rows. Response returned all **7 original fields**.
+- Submit success settings and required privacy consent remain in the existing form; no live form or page deletion.
+- API result confirms backend schema layout, **not that the Wix Studio visual editor has refreshed**; check visual when Wix page is next reviewed.
+
+### GitHub deliverable
+- [Responsive form prototype](../design/wix-contact/index.html) — client-side interactivity, validation, responsive style and safe failure when Wix message bridge is absent.
+- [Wix backend Velo reference implementation](../design/wix-contact/backend/velouraContact.web.js) — intended to submit to the **existing** Wix Forms ID, NOT installed.
+- [Wix Contact page bridge](../design/wix-contact/wix-contact-page.js) — intended for Wix HTML Component + Velo, NOT installed.
+- [Integration contract and security caveats](../design/wix-contact/README.md).
+
+### Not completed
+**The custom visual form is NOT live in the Wix Studio Contact page.** The connected Wix API lacks direct canvas widget insertion and visual form styling mutation capabilities; the Wix site has **Velo disabled**. Production installation through the editor/Code is still needed, plus real submission testing and anti-spam safeguards. Keep current native functional form until the transition is validated. Do not misrepresent code readiness as a verified deployed integration.
