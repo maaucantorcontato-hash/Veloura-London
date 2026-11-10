@@ -39,3 +39,6 @@
 1. Click the **311 Reviews** link and inspect the latest photos, negative reviews and gold finish longevity.
 2. Ask Yhpup Official Store for a **repeat-order**, non-welcome deal quote for YH4194A Gold, shipping per order to the UK, image rights, neutral packaging and dropshipping support.
 3. Confirm exact store ID and delivery costs without purchase; then compare against at least three similar UK retailers before pricing.
+
+## Supplier response and review insights (2026-11-10)
+Seller confirmed generic dropshipping availability but estimated 18–25 days to countries outside the USA; UK-specific shipping eligibility, neutral packaging, single-pair recurring price, commercial media rights, verified materials, return routing and product-specific timing remain open. Review screenshot shows several positive gold-variant reviews with buyer photos and repeat comments that the earrings feel a bit heavy. Details and follow-up checklist: [YHPUP_SUPPLIER_COMMUNICATION.md](YHPUP_SUPPLIER_COMMUNICATION.md).
